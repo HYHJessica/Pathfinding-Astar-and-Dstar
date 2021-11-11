@@ -64,3 +64,23 @@ nodes = planner.reset(nodes) #Resets node values to avoid conflicts when plannin
 from astar import astar4connected as astar
 P = astar(maze,start,goal) #initial path. called again after maze is updated with obstacles
 ```
+
+###### Plots of Results:
+
+###### D* Repair Time vs Distace to Goal
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/D*%20Repair%20Time%20vs%20Distace%20to%20Goal.png?raw=true)
+###### BFR Repair Time vs Distace to Goal
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/BFR%20Time%20vs%20Distance%20to%20Goal.png?raw=true)
+###### D* Repair Time from Start to Goal
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/D*%20Repair%20Time%20from%20Start%20to%20Goal.png?raw=true )
+###### BFR Time from Start to Goal
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/BFR%20Time%20from%20Start%20to%20Goal.png.png?raw=true)
+###### Cum Sum D* Repair Times Start to Goal
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/Cum%20Sum%20D*%20Repair%20Times%20Start%20to%20Goal.png?raw=true)
+###### Cum Sum BFR Start to Goal
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/Cum%20Sum%20BFR%20Start%20to%20Goal.png?raw=true)
+###### D* Time Making Nodes
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/D*%20Time%20Making%20Nodes.png?raw=true)
+###### A* Performance Increasing Grid
+![](https://github.com/kalebakeits/Pathfinding-Astar-and-Dstar/blob/main/Images/A*%20Performance%20Increasing%20Grid.png?raw=true)
+
