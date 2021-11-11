@@ -2,24 +2,19 @@
 	- python3.
 	- pygame.
 
+```pip install pygame```
+
 #### There are 2 main programs in this folder:
 
 The other files in this folder contain either variables, functions or classes imported into these 2.
 
 #### 1. Data and Plots for Final Report.
 
-It is available in 3 different formats.
+	Python Script (Data and Plots for Final Report.py)
 
-	1. Jupyter Notebook (Data and Plots for Final Report.ipynb)
-	2. Python Script (Data and Plots for Final Report.py)
-
-Python Script to compare and plot the performance of the 2 algorithms. I have reduced the number of iterations for the first 2 tests (D* Incremental Repairing and A* Brute-Force Replanning) from 100 to 1 mainly because the A* test took close to 21 hours so the data is more noisy but the trends are still similar. The grid used is still the same only the averaging was changed. The notebook contains the code along with the outputs.
+Python Script to compare and plot the performance of the 2 algorithms. I have reduced the number of iterations for the first 2 tests (D* Incremental Repairing and A* Brute-Force Replanning) from 100 to 1 mainly because the A* test took close to 21 hours so the data is more noisy but the trends are still similar. The grid used is still the same only the averaging was changed.
 
 #### 2. A* vs D* With Visual
-
-```pip install pygame```
-
-Available as:
 
 	Python Script ( A* vs D* With Visual.py)
 
