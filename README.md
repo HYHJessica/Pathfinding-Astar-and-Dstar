@@ -1,14 +1,12 @@
-### Requirements:
+## Requirements:
+- python3.
+- pygame.
 
-python3
-pygame
-Jupyter Notebook (Optional)
-
-There are 2 main programs in this folder:
+#### There are 2 main programs in this folder:
 
 The other files in this folder contain either variables, functions or classes imported into these 2.
 
-1. Data and Plots for Final Report.
+#### 1. Data and Plots for Final Report.
 
 It is available in 3 different formats.
 
@@ -18,9 +16,9 @@ It is available in 3 different formats.
 
 The Notebook contains all the code and figures used to generate the data and plots of the Final Report. If you can't run the Notebook, I've included the HTMl file so that you can view it in a browser to see the code and the outputs. The Python Script contains the same code as the Notebook and produces the same plots. I have reduced the number of iterations for the first 2 tests (D* Incremental Repairing and A* Brute-Force Replanning) from 100 to 1 mainly because the A* test took close to 21 hours so the data is more noisy but the trends are still similar. The grid used is still the same only the averaging was changed
 
-2. A* vs D* With Visual
+#### 2. A* vs D* With Visual
 
-(Pygame is required for this. In a Terminal or Command Prompt window run "pip install pygame", everything else should be included with a standard Python 3 distribution.)
+```pip install pygame```
 
 It is available as a Python Script (.py)
 
